@@ -1,9 +1,4 @@
-"""Пакет my_calculator.
+from .calculator import Calculator
+from .utils import validate_number, format_result
 
-Пример организации пакета с модулем калькулятора.
-"""
-
-# TODO: экспортировать класс Calculator из модуля calculator
-# from .calculator import Calculator
-
-__all__ = []  # TODO: добавить "Calculator" в список
+__all__ = ['Calculator', 'validate_number', 'format_result']
