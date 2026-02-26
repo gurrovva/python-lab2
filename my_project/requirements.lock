@@ -1,0 +1,13 @@
+# Файл блокировки зависимостей (requirements.lock)
+#
+# Содержит точные версии всех зависимостей для воспроизводимости.
+# Генерируется инструментами вроде poetry, pip-tools или pipenv.
+#
+# TODO: сгенерировать файл блокировки зависимостей
+# Пример команды: pip-compile requirements.txt -o requirements.lock
+#
+# Или через poetry:
+# poetry lock
+#
+# Или через pipenv:
+# pipenv lock -r > requirements.lock
